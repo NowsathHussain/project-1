@@ -10,6 +10,16 @@ namespace Project1
     {
         static void Main(string[] args)
         {
+            int a = 10;
+            int b = 20;
+            Console.WriteLine(Sum(a,b));
+
         }
+        #region functions
+        public static int Sum(int a,int b)
+        {
+            return a + b;
+        }
+        #endregion
     }
 }
